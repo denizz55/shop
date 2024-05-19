@@ -4,7 +4,8 @@ const Header = () => {
         <header>
             <span>Style</span>
             <nav>
-                <Link href="/">Главная</Link>
+                <li><Link href="/">Главная</Link></li>
+                <li><Link href="/product">Товары</Link></li>
             </nav>
         </header>
             )
